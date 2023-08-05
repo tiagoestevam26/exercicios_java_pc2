@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.memoria.PrimaryController">
+   <children>
+      <GridPane layoutX="25.0" layoutY="29.0" prefHeight="421.0" prefWidth="450.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="359.0" minHeight="10.0" prefHeight="352.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="228.0" minHeight="10.0" prefHeight="118.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane hgap="40.0" prefHeight="327.0" prefWidth="451.0" vgap="10.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ToggleButton fx:id="botao31" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="96.0" prefWidth="78.0" text="?" textFill="RED" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="botao2" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="49.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="1" />
+                  <ToggleButton fx:id="botao13" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="79.0" prefWidth="78.0" text="?" textFill="RED" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="botao19" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="85.0" prefWidth="78.0" text="?" textFill="RED" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="botao24" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="65.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="botao25" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="52.0" prefWidth="78.0" text="?" textFill="RED" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="botao33" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="69.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="botao8" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="61.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <ToggleButton fx:id="botao14" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="58.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="botao20" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="63.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="botao32" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="72.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="botao26" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="56.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="botao37" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="95.0" prefWidth="78.0" text="?" textFill="RED" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="botao43" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="69.0" prefWidth="78.0" text="?" textFill="RED" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="botao49" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="99.0" prefWidth="78.0" text="?" textFill="RED" GridPane.rowIndex="8" />
+                  <ToggleButton fx:id="botao55" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="91.0" prefWidth="78.0" text="?" textFill="RED" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="botao38" layoutX="88.0" layoutY="193.0" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="81.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="botao44" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="63.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="botao50" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="83.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                  <ToggleButton fx:id="botao56" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="89.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="botao3" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="43.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="2" />
+                  <ToggleButton fx:id="botao4" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="47.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="3" />
+                  <ToggleButton fx:id="botao5" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="59.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="4" />
+                  <ToggleButton fx:id="botao6" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="72.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="5" />
+                  <ToggleButton fx:id="botao9" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="76.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <ToggleButton fx:id="botao10" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="79.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <ToggleButton fx:id="botao11" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="65.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <ToggleButton fx:id="botao12" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="77.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <ToggleButton fx:id="botao15" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="58.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="botao16" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="52.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="botao17" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="67.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="botao18" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="72.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="botao21" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="55.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="botao27" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="65.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="botao22" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="63.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="botao23" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="96.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="botao28" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="82.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="botao7" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="68.0" prefWidth="78.0" text="?" textFill="RED" GridPane.rowIndex="1" />
+                  <ToggleButton fx:id="botao34" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="76.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="botao59" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="101.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="botao39" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="83.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="botao45" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="69.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="botao51" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="63.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                  <ToggleButton fx:id="botao57" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="80.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="botao29" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="56.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="botao30" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="91.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="botao35" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="61.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="botao36" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="41.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="botao40" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="45.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="botao41" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="70.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="botao42" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="87.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="botao46" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="82.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="botao47" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="81.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="botao48" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="59.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="botao52" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="72.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                  <ToggleButton fx:id="botao58" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="74.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="botao53" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="87.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                  <ToggleButton fx:id="botao54" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="84.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                  <ToggleButton fx:id="botao1" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="56.0" prefWidth="78.0" text="?" textFill="RED" />
+                  <ToggleButton fx:id="botao60" mnemonicParsing="false" onAction="#clicouJogo" prefHeight="196.0" prefWidth="78.0" text="?" textFill="RED" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+               </children>
+            </GridPane>
+            <GridPane prefHeight="76.0" prefWidth="468.0" GridPane.rowIndex="1">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="236.0" minWidth="10.0" prefWidth="235.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="327.0" minWidth="10.0" prefWidth="233.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <GridPane hgap="20.0" GridPane.columnIndex="1">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button fx:id="botaoNovo" mnemonicParsing="false" onAction="#clicouNovo" prefHeight="21.0" prefWidth="143.0" text="Novo" />
+                        <Button fx:id="botaoSair" mnemonicParsing="false" onAction="#clicouSair" prefHeight="24.0" prefWidth="187.0" text="Sair" GridPane.columnIndex="1" />
+                     </children>
+                  </GridPane>
+                  <Label fx:id="textoPontos" prefHeight="16.0" prefWidth="151.0" text="Voce tem 0 pontos!!!" textAlignment="CENTER" />
+               </children>
+            </GridPane>
+         </children>
+      </GridPane>
+   </children>
+</Pane>
